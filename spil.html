@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="da">
+<head>
+	<meta charset="UTF-8">
+	<title>SPIL</title>
+	<link href="main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+
+<body>
+<div class="wrapper"> <!--Wrapperen rundt om alt indholdet-->
+        	<nav> <!-- Header -->
+				<ul id="navigation-slange">
+					<li><a href="index.html"><img src="images/pil-roed.png" width="50px" alt="tilbagepil"></a></li>
+					<li style="float:right"><a href="omos.html">OM OS</a></li>
+            	</ul>
+			</nav>
+			<div class="logo-underside"> <!--Div til logoet-->
+				<a href="index.html"><img alt="logo DYR I ZOO" src="images/logo-roed.png" width="200"></a>
+			</div>
+	</div>
+	<div class="quiz-div">
+		<section class="text-center"> <!--Omslutter hele spillet-->
+				<div class="container">
+					<h1 class="heading">SPIL</h1>
+					<p class="lead text-muted">Sorter dyrene så det tungeste er til venstre og det letteste er til højre.</p>
+					<ul id="quiz"> <!--Listen er selve spillet og de enkelte list-items repræsenterer hver enkelt dyr-->
+						<li class="ui-state-default" data-val="Slange"><img src="images/slange-startside.png" alt="slange" /><br />Slange</li>
+						<li class="ui-state-default" data-val="Chimpanse"><img src="images/chimpanse-startside.png" alt="chimpanse" /><br />Chimpanse</li>
+						<li class="ui-state-default" data-val="Elefant"><img src="images/elefant-startside.png" alt="elefant" /><br />Elefant</li>
+						<li class="ui-state-default" data-val="Giraf"><img src="images/giraf-startside.png" alt="giraf" /><br />Giraf</li>
+						<li class="ui-state-default" data-val="Søløve"><img src="images/soeloeve-startside.png" alt="søløve" /><br />Søløve</li>
+						<li class="ui-state-default" data-val="Løve"><img src="images/loeve-startside.png" alt="løve" /><br />Løve</li>
+					</ul>
+					<p class="spil-links"> <!--Knapper til at tjekke svarene og nulstille-->
+						<a href="#" class="btn btn-primary" id="result">Se resultat</a>
+						<a href="#" class="btn btn-secondary" id="reset">Nulstil</a>
+					</p>
+				</div>
+			</section>
+		</div>
+	<!--Henter de forskellige J-query biblioteker og JavaScript-->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="media.js"></script>
+</body>
+</html>

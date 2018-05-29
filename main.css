@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* BROWSER NUKE (RESET) */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+/* ændring af baggrundsfarven på index-siden*/
+body {
+	background: #EDCA57;
+	font-family:  'Montserrat', sans-serif;
+}
+/* ændring af baggrundsfarven på undersiderne-siden*/
+.body-loeve {
+	background: #b3c28e;
+}
+
+.body-giraf {
+	background: #eba8c5;
+}
+
+.body-elefant {
+	background: #f18a71;
+}
+
+.body-soeloeve {
+	background: #fdde6e;
+}
+
+.body-chimpanse {
+	background: #bde0dd;
+}
+
+.body-slange {
+	background: #edb853;
+}
+
+/* Wrapper til hele siden, der sørger for, at det hele er centreret og har den rigtige bredde */
+.wrapper {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	width: 980px;
+	}
+.indhold-underside {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	margin-top: -100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	width: 980px;
+	}
+/*NAVIGATIONSBAR på forsiden og de forskellige undersider*/
+nav {
+	padding: 10px;
+	width: 100%
+}
+
+#navigation li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #f18a71;
+	text-align: center;
+}
+#navigation-elefant li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-elefant a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #edb853;
+	text-align: center;
+}
+
+#navigation-chimpanse li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-chimpanse a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #b3c28e;
+	text-align: center;
+}
+#navigation-loeve li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-loeve a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #bde0dd;
+	text-align: center;
+}
+#navigation-giraf li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-giraf a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #fdde6e;
+	text-align: center;
+}
+#navigation-soeloeve li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-soeloeve a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #eba8c5;
+	text-align: center;
+}
+#navigation-slange li {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: inline; /* Sætter list-items i række, i stedet for liste */
+}
+
+#navigation-slange a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+	color: #f18a71;
+	text-align: center;
+}
+
+
+.logo {
+	margin-top: -120px; /*Rykker logoet længere op*/
+}
+
+img {
+	margin: 0px
+}
+/* Wrapper til indholdet, der sørger for, at det hele er centreret og har den rigtige bredde på alle undersiderne */
+.indhold {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Styler links i indholdet*/
+.indhold a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+/*Sørger for at kasserne på forsiden med links til dyrene har den rigtige bredde og margin*/
+.loeve {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.giraf {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.elefant {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.soeloeve {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.chimpanse {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.slange {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.kort {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.spil {
+	width: 450px;
+	height: 450px;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+/*Sørger for at illustrationerne af dyrene, sidder de rigtige steder på siderne*/
+.illustration {
+	width: 420px;
+	margin-bottom: 20px;
+}
+
+.illustration-giraf-slange {
+	width: 420px;
+	margin-bottom: 20px;
+	margin-top: -100px;
+	padding-left: 60px;
+}
+/*Sørger for at teksten om dyrene, sidder det rigtige sted på siderne*/
+.tekst {
+	width: 420px;
+	padding-top: 110px;
+	padding-left: 70px;
+	margin-bottom: 20px;
+}
+/*Sørger for at fun-factsne om dyrene, sidder det rigtige sted på siderne*/
+.sjove-facts {
+	width: 420px;
+	margin-bottom: 20px;
+}
+/*Sørger for at videoen om dyrene, sidder det rigtige sted på siderne*/
+.video {
+	width: 420px;
+	margin-bottom: 20px;
+}
+/*Sørger for at teksten om giraffen, sidder det rigtige sted på siden, da billedet af giraffen er højere end de andre og derfor skulle nogle af elementerne sidde anderles på denne side*/
+.tekst-giraf {
+	width: 420px;
+	padding-top: 110px;
+	padding-left: 70px;
+	margin-top: 30px;
+}
+
+.sjove-facts-giraf {
+	width: 420px;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+.video-giraf {
+	margin-top: -60px;
+}
+/*Styling af overskrifter*/
+h1 {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 700;
+}
+/*Styling af quizzen*/
+#quiz img {
+	width: 123px;
+}
+
+#quiz {
+	list-style: none; /* fjerner bullets */
+	margin: 10px;
+	padding: 10px;
+	display: table; /* Sætter list-items i række, i stedet for liste */
+}
+#quiz li {
+	display: table-cell;
+}
+.ui-state-default{
+	width: 100px;
+}
+
+.quiz-div {
+	margin: auto;
+	width: 800px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.spil-links a {
+	color: black;
+}
+
+.spil-links a:hover {
+	color: #f18a71;
+}
+
+/*Styling af om os side */
+.omos {
+	width: 400px;
+	margin-top: 50px;
+}
+
+.omos-kontakt {
+	width: 890px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/* Wrapper til animationen, der sørger for, at det hele er centreret og har den rigtige bredde */
+.kort-animation {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+}
